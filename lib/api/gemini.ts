@@ -11,7 +11,7 @@ export async function getGeminiResponse(prompt: string) {
       contents: prompt,
     });
 
-    // Access the generated text and clean up Markdown-style asterisks
+ //cleaner response text
     const cleanedText = (response.text ?? "Wait for some Quotes...")
       .replace(/\*\*/g, "") // remove double asterisks (bold)
       .replace(/\*/g, "")   // remove single asterisks (italic)

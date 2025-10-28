@@ -33,9 +33,9 @@ components/[folder]/ → Komponen kecil yang bisa dipakai ulang
 | `mood.ts` | `fetchMoodData()` | Permintaan fetch dikonfigurasi : `cache: "no-store"` | Untuk memastikan data terbaru terload
 | `summary.ts` | `fetchHistoryData()` | Permintaan fetch dikonfigurasi : `cache: "no-store"` | Untuk memastikan data terbaru terload
 | `QuotesCard` | `isValidCache()` | Melakukan cache dengan :  `localStorage.getItem()` | Untuk menjaga request pada API gemini ai
-| `MoodModal` | `handleMoodSelect()` | Melakukan : window.dispatchEvent(new Event("moodUpdated"));| Untuk memberikan trigger bahwa mood telah berubah
-| `NotificationCard`| `addEventListener()` | Melakukan : window.addEventListener("moodUpdated", loadData);| Mengupdate data setelah menerima triger
-| `TrackerCard`| `addEventListener()` | Melakukan : window.addEventListener("moodUpdated", loadData);| Mengupdate data setelah menerima triger
+| `MoodModal` | `handleMoodSelect()` | Melakukan : `window.dispatchEvent(new Event("moodUpdated"));`| Untuk memberikan trigger bahwa mood telah berubah
+| `NotificationCard`| `addEventListener()` | Melakukan : `window.addEventListener("moodUpdated", loadData); `| Mengupdate data setelah menerima triger
+| `TrackerCard`| `addEventListener()` | Melakukan : `window.addEventListener("moodUpdated", loadData);`| Mengupdate data setelah menerima triger
 
 
 ## Development Plan
