@@ -26,6 +26,7 @@ components/[folder]/ → Komponen kecil yang bisa dipakai ulang
 - Tata letak intuitif dan ramah pengguna  
 
 ---
+## Highlight Teknis
 
 | Komponen/Lib | Fungsi | Konfigurasi | Tujuan
 | --- | --- | --- | --- |
