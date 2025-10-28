@@ -4,10 +4,10 @@
 
 ---
 
-## TechstackSS
-- **Next.js** → Framework modern untuk performa cepat  
+## Techstacks
+- **Next.js** → Framework untuk performa 
 - **Tailwind CSS** → Styling simpel dan fleksibel  
-- **Lucide React** → Ikon keren dan ringan  
+- **Lucide React** → Ikon ringan  
 - **Framer Motion** → Animasi smooth dan interaktif 
 - **Gemini Ai**  → Integrasi Gemini Ai untuk memberikan Quotes Harian
 
